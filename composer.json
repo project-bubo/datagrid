@@ -1,0 +1,19 @@
+{
+	"name": "project-bubo/datagrid",
+	"type": "library",
+	"description": "Official Bubo CMS Datagrid",
+	"keywords": ["cms", "datagrid"],
+	"authors": [
+                {
+			"name": "Roman Sklenář"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+                "nette/nette": "2.0.6",
+                "srigi/nette-confirmationdialog": "1.0.1"
+	},
+	"autoload": {
+		"classmap": ["src/DataGrid/"]
+	}
+}
